@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Add a Job</title>
+    </head>
+    <body>
+        <h1>Add to your Work History</h1>
+        <form action="/jobs" method="post">
+            <h4>Job Description</h4>
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" name="jobTitle" id="jobTitle" required="required" placeholder="Engineer">
+            <label for="company">Company Name:</label>
+            <input type="text" name="company" id="company" required="required" placeholder="Microsoft">
+            <label for="jobDuties">Job Duties: </label>
+            <input type="text" name="jobDuties" id="jobDuties" required="required" placeholder="Programming and stuff">
+            <label for="yearsHeld">Years Held:</label>
+            <input type="number" name="yearsHeld" id="yearsHeld" required="required" placeholder="2">
+            <button type="submit" name="button">Add this Job!</button>
+        </form>
+    </body>
+</html>

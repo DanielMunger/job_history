@@ -1,0 +1,6 @@
+<h1>Jobs You've Held</h1>
+@foreach(var job in Model)
+{
+    <li><a href="/jobs/@job.GetId()">@job.GetJobTitle()</a></li>
+}
+<a href="/jobs/new">Add another work experience</a>
